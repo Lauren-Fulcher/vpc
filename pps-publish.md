@@ -39,6 +39,8 @@ To publish a Private Path service with the {{site.data.keyword.cloud_notm}} cons
 After the service is published, it cannot be unpublished.
 {: important}
 
+The Private Path service is now exposed for other accounts to connect to the service through Virtual Private Endpoint (VPE) gateways.
+
 ## Activating a Private Path service from the CLI
 {: #pps-cli-publish-private-path-service}
 {: cli}
@@ -123,7 +125,6 @@ To publish a Private Path service with the API, follow these steps:
       export ppsgId=<your_ppsg_id>
       ```
       {: pre}
-
 
 1. When all variables are initiated, do one of the following:
 
